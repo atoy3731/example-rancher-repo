@@ -18,3 +18,9 @@ questions:
     type: string
     required: true
     group: Configuration
+  - variable: autscaling.enabled
+    description: Enable Autoscaling
+    label: Enable Autoscaling
+    type: bool
+    required: false
+    group: Autoscaling
