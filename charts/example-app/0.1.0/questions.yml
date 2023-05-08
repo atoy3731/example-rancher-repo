@@ -6,3 +6,15 @@ questions:
     default: 1
     required: true
     group: Configuration
+  - variable: image.repository
+    description: Name of the image to use
+    label: Image Name
+    type: string
+    required: true
+    group: Configuration
+  - variable: image.tag
+    description: Tag of the image to use
+    label: Image Tag
+    type: string
+    required: true
+    group: Configuration
