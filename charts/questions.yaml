@@ -1,6 +1,6 @@
 questions:
-  - variable: replicas
-    label: Replicas
+  - variable: replicaCount
+    label: Replica Count
     description: Number of Replicas for the Deployment
     type: int
     default: 1
