@@ -21,6 +21,6 @@ questions:
   - variable: autscaling.enabled
     description: Enable Autoscaling
     label: Enable Autoscaling
-    type: bool
+    type: boolean
     required: false
     group: Autoscaling
